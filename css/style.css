@@ -113,8 +113,11 @@ body, html{
     margin: auto;
 }
 .contact-form, .login-form{
+    height: 150px;
+    width: 150px;
     display: inline-block;
     text-align: center;
+    background-color: #9BC1BC;
 }
 .index-main-content{
     height: 100%;
