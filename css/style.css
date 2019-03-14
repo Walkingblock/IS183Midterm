@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+h1, h2{
+    color:#F4F1BB;
+}
+p{
+    
+    color: #F4F1BB;
+}
+body, html{
+    height: 100vh;
+    width: 100 vw;
+    background-color: #ccc;
+}
+.contact-form{
+    justify-content: center;
+    align-content: center;
+}
+.product-content-grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 12fr;
+    grid-column-gap: 1em;
+}
+
+.main-3c-grid{
+    height: 90%;
+    display: grid;
+    grid-template-columns: 3fr 15fr 5fr;
+}
+.nav-bar{
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-bar>li{
+
+}
+.nav-bar>li>a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px 0px 15px 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    background-color: #F4F1BB;
+}
+.ThreeC1{
+    background-color: crimson;
+    height: 100%;
+}
+
+.ThreeC2{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    height: 100%;
+}
+.index-gallery, .index-main-content{
+    width: 50%;
+}
+.index-gallery{
+    overflow: auto;
+    height: 100%;
+    
+}
+.gallery > li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.gallery > li > img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover
+}
+.ThreeC3{
+    background-color: greenyellow;
+    height: 100%;
+}
+.index-r1, .index-r2{
+    background-color: #9BC1BC;
+}
+.about-us-header, .about-us-footer{
+    background-color:#9BC1BC;
+    height: 10%;
+}
+.about-us-footer{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic
+}
+.about-us-header > img{
+    height: 60px;
+    width: 60px;
+    padding: 2px 0px 2px 2px;
+
+}
+.about-us-main{
+    display: block;
+    overflow: hidden;
+}
+.about-us-content{
+    height: 80%;
+}
+.accent{
+    background-color: #E6EBE0;
+}
+.contact-content, .login-content{
+    display: block;
+    margin: auto;
+}
+.contact-form, .login-form{
+    display: inline-block;
+    text-align: center;
+}
+.index-main-content{
+    height: 100%;
+    width: 100%;
+}
